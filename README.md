@@ -23,7 +23,7 @@ A Java-based console application for managing library items, members, library ca
 - Java Collections Framework
 
 ## Project Structure
-
+```text
 Task-3-Library-Mangaement-System/
 │
 ├── .gitignore
@@ -70,7 +70,7 @@ Task-3-Library-Mangaement-System/
 │
 └── out/
     └── Compiled Java classes
-
+```
 ## Package Description
 - **model:** Library items, members, cards, and borrowing records.
 - **repository:** SQLite connectivity, schema creation, and data operations.
