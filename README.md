@@ -105,7 +105,7 @@ java -cp "out;lib\sqlite-jdbc-3.53.4.0.jar" ui.Main
 ```````
 
 ## Class Diagram Description
-
+```text
 The main class relationships can be represented as follows:
                  LibraryItem
                  <<abstract>>
@@ -141,6 +141,7 @@ DatabaseConnection
         |
         v
    SQLite Database
+````
 `LibraryItem` is an abstract class extended by `PhysicalBook` and `DigitalMedia`. The UI calls service classes, which apply business rules and use repository classes to interact with the SQLite database.
 
 ## Testing
